@@ -13,6 +13,19 @@ This project helps you automatically publish Docker images to Huawei Cloud Softw
 - 推送 Docker 镜像到华为云 SWR，方便国内用户使用
 - 支持任何注册表的镜像，比如 DockerHub、ghcr.io。理论上 github 能拉取的都能推送过去
 
+## 首先
+
+克隆项目到你的 GitHub 仓库
+
+请不要使用 Fork！因为 Fork 仓库运行 GitHub Actions 会受到运行时长限制。使用以下方法通过 Git 导入项目：
+
+1. 点击此链接进入 GitHub 的导入页面：[GitHub 导入页面](https://github.com/new/import)
+2. 在 "Your old repository’s clone URL" 一栏中输入：
+   ```
+   https://github.com/houxiaozhao/docker2swr.git
+   ```
+3. 根据提示完成项目导入。
+
 ## 使用方法 (Usage)
 
 1. 配置 GitHub Secrets
