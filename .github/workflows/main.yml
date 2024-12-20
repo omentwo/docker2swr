@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       image:
-        description: '要拉取的 Docker 镜像名称和版本'
+        description: "要拉取的 Docker 镜像名称和版本"
         required: true
-        default: 'nginx:latest'
+        default: "nginx:latest"
 env:
   SWR_REGISTRY: ${{vars.SWR_REGISTRY}}
   ORG: ${{vars.ORG}}
