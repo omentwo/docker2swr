@@ -54,7 +54,7 @@ This project helps you automatically publish Docker images to Huawei Cloud Softw
 
 3. 运行 GitHub Actions 工作流
 
-   ![image](image.png)
+   ![image](images/image.png)
    最后输入要推送的镜像名称，例如 `nginx:latest`、``
 
 4. 等待推送完成
