@@ -85,6 +85,8 @@ This project helps you automatically publish Docker images to Huawei Cloud Softw
 
 除了通过 GitHub Actions 推送镜像，本项目还提供了一个友好的 Web 界面，方便您管理和监控镜像。
 
+![HU3fMG](https://cdn.jsdelivr.net/gh/houxiaozhao/imageLibrary@master/uPic/2024/12/24/HU3fMG.png)
+
 ### 主要功能
 
 1. 镜像列表查看 (Image List)
