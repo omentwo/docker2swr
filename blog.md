@@ -55,18 +55,10 @@ Docker2SWR 提供了以下核心功能：
    - 可以查看历史同步记录
    - 支持查看同步日志，方便排查问题
 
-## 开始使用
-
-### 在线体验
-
-访问演示站点：[https://docker2swr.houxiaozhao.com/](https://docker2swr.houxiaozhao.com/)
-
 ### 开源地址
 
-[此处添加开源仓库地址]
+https://github.com/houxiaozhao/docker2swr
 
 ## 更多说明
 
 Docker2SWR 是一个开源项目，欢迎社区贡献和使用。如果你在使用过程中遇到问题或有新的需求，欢迎通过 Issues 反馈。
-
-[在此处添加功能使用截图]
