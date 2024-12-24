@@ -1,0 +1,36 @@
+ 
+name: Deploy Vite Project to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v3
+      with:
+        ref: main
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16' # 你可以根据你的项目需求选择合适的Node.js版本
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build Project
+      run: npm run build # 确保你的package.json中有构建脚本
+
+    - name: Deploy to gh-pages
+      uses: JamesIves/github-pages-deploy-action@v4.3.3
+      with:
+        branch: gh-pages # The branch the action should deploy to.
+        folder: dist # The folder the action should deploy.
+        token: ${{ secrets.ACCESS_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+ 
