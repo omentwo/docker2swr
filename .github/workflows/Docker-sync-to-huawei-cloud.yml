@@ -6,6 +6,11 @@ on:
       - 'main'
     paths:
       - 'images.txt'
+
+
+  schedule:
+    - cron: '0 * * * *'
+
 env:
   HUAWEI_KEY: "${{ secrets.HUAWEI_KEY }}"
   HUAWEI_SCRET: "${{ secrets.HUAWEI_SCRET }}"
