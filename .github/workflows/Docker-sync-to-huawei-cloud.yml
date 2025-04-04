@@ -48,7 +48,7 @@ jobs:
       uses: docker/setup-buildx-action@v3
     - name: Build and push image HuaweiCloud
       run: |
-        docker login -u cn-southwest-2@$HUAWEI_KEY -p $HUAWEI_SCRET $HUAWEI_REGISTRY
+        docker login -u cn-south-1@$HUAWEI_KEY -p $HUAWEI_SCRET $HUAWEI_REGISTRY
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
