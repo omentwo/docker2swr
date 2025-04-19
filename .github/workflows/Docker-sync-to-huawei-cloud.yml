@@ -9,7 +9,7 @@ on:
 
 
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0/6 * * *'
 
 env:
   HUAWEI_KEY: "${{ secrets.HUAWEI_KEY }}"
