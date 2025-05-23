@@ -1,2 +1,3 @@
 youshandefeiyang/allinone
 yuexuangu/allinone_format
+pengzhile/fuclaude:latest
